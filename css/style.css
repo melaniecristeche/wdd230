@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header,
+main,
+footer {
+  margin: 1.25em auto;
+  max-width: 760px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px #f8ba73;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+header,
+footer {
+  background-color: rgb(230, 150, 2);
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px #777;
+}
+
+header {
+  padding: 1.5em;
+}
+
+footer {
+  padding: 1em;
+}
+
+.class-student {
+  text-shadow: 2px 2px #f8ba73;
+  color: white;
+  text-align: center;
+}
+
+.perfil-image {
+  float: right;
+  margin: 10px;
+  box-shadow: 0 0 20px #777;
+}
+
+main {
+  border: 1px solid #bbb;
+  padding: 1rem;
+  background-color: rgb(245, 232, 209);
+  box-shadow: 0 0 20px #777;
+}
