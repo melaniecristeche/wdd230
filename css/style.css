@@ -25,6 +25,7 @@ header,
 footer {
   background-color: rgb(230, 150, 2);
   color: white;
+  border-radius: 5px;
   box-shadow: 0 0 20px #777;
 }
 
@@ -50,6 +51,7 @@ footer {
 .perfil-image {
   grid-column: 1/1;
   grid-row: 1/1;
+  border-radius: 5px;
 }
 
 main {
