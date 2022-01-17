@@ -13,17 +13,17 @@ body {
   
   h1 {
     font-size: 2.5rem;
-    text-shadow: 2px 2px #f8ba73;
+    text-shadow: 2px 2px #7573f8;
   }
-  
+
   h2 {
     font-size: 1.5rem;
-    text-shadow: 2px 2px #f8ba73;
+
   }
   
   header,
   footer {
-    background-color: rgb(230, 150, 2);
+    background-color: rgb(9, 57, 216);
     color: white;
     border-radius: 5px;
     box-shadow: 0 0 20px #777;
@@ -49,4 +49,5 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
   
+
   
