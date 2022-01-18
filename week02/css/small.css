@@ -12,29 +12,28 @@ body {
   }
   
   h1 {
-    font-size: 2.5rem;
-    text-shadow: 2px 2px #7573f8;
+    font-size: 1.6rem;
+    text-shadow: 2px 2px #f8ba73;
   }
 
   h2 {
     font-size: 1.5rem;
+  
+
 
   }
   
   header,
   footer {
-    background-color: rgb(9, 57, 216);
+    background-color: rgb(230, 150, 2);
     color: white;
     border-radius: 5px;
     box-shadow: 0 0 20px #777;
   }
   
-  header {
-    display: grid;
-    grid-template-columns:auto 1fr;
-    align-items: center;
-    justify-items: center;
+  header, h1{
     padding: 1.2rem;
+    text-align: center;
   }
   
   footer {
@@ -46,8 +45,32 @@ body {
   main {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
   
+  img {
+    width: 100%;
+    margin-top: 5px;
+ }
 
-  
+  .section1, .section2, .section3{
+    background-color:#f8ba73 ;
+    border-radius: 5px;
+  }
+
+  .section1 h2, .section2 h2, .section3 h2 {
+    padding-left: 1rem;
+    background-color: rgb(255, 142, 50);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px #dbdbdb;
+  }
+
+  .section1 p, .section2 p, .section3 p {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+  }
+
+  :hover a {
+    padding: 1rem;
+  }
