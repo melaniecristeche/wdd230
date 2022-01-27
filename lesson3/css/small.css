@@ -137,3 +137,27 @@ table, th, td {
 .responsive-table {
   overflow-x:auto;
 }
+
+img {
+  max-width: 100%;
+}
+.card {
+  width: 630px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 15px;
+  background-color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  margin: 1em;
+}
+.text {
+  font-family: 'Quicksand', sans-serif;
+  margin: 15px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
