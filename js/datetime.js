@@ -1,7 +1,9 @@
 const lastmod = document.querySelector('#lastmod');
-lastmod.textContent = document.lastModified; 
+lastmod.innerHTML = `Last Modification: ${document.lastModified}`;
+
+const todaysdate = new Date();
+const lastyear = document.querySelector('#lastyear');
+lastyear.innerHTML = `&copy ${todaysdate.getFullYear()} | Melanie Cristeche | Buenos Aires`;
 
 
-new Date().getFullYear()
-document.getElementById('#lastyear').innerHTML = new Date().getFullYear;
 
