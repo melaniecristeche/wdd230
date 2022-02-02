@@ -161,12 +161,13 @@ section#spotlight .spot3 {
   display: flex;
   flex-direction: column;}
 
-.social-media-1{
+.social-media-1 {
   float: right;
   margin-left: 0.5rem;
   border-radius: 12px;
 }
-.social-media-2{
+.social-media-2 {
   float: right;
+  margin-left: 0.5rem;
   border-radius: 12px;
 }
