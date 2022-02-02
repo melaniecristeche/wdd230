@@ -1,7 +1,22 @@
-const menubutton = document.querySelector('.menu');
-const mainnav = document.querySelector('.navigation')
+// button responsive 
 
-menubutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
 
-// To solve the mid resizing issue with responsive class on
-// window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu;
+
+
+// current date with format: Wednesday, 24 July 2020.
+
+const date = new Date();
+const currentTime = document.getElementById('currentTime')
+
+const fulldate = new Intl.DateTimeFormat('en-Us',{
+    dateStyle: "full"
+}).format(date);
+
+currentTime.innerHTML = fulldate;
+
