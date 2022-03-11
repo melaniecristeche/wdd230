@@ -24,8 +24,8 @@
   </head>
   <body>
     <header>
+      <img class="logo-image" src="../lesson3/images/rsz_logos.jpg" alt="logo image"  />
       <nav>
-        <img class="logo-image" src="../lesson3/images/logos1.jpg" alt="logo image"  />
         <button id="hamburgerBtn"><span>&#9776</span><span>☒</span></button>
         <ul id="primaryNav">
           <li><a class="menu" href="#">Menu</a></li>
@@ -37,8 +37,9 @@
           <li><a href="#">Products</a></li>
         </ul>
         <div>
-          <a href="https://www.youtube.com/" target="_blank"><img src="images/rsz_1youtube.png" alt="youtube link" class="social-media-1"></a>
-          <a href="https://www.facebook.com/" target="_blank"><img src="images/rsz_facebook.png" alt="facebook link" class="social-media-2"></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/rsz_1youtube.png" alt="youtube link" class="social-media"></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/rsz_facebook.png" alt="facebook link" class="social-media"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="images/rsz_instagram.png" alt="instagram link" class="social-media"></a>
         </div>
       </nav>
       <div>
@@ -47,12 +48,17 @@
     </header>
     <main> 
       <div class="main-grid">
-        <section class="item" id="event"><p>Event</p></section>
+        <section class="item" id="event"><p>Event</p>
+        </section>
         <section class="item" id="weather"><p>Weather</p></section>
         <section class="item" id="join"><p>Join</p></section>  
-        <section class="item" id="hero-image"><p>Hero with site name and call to action</p></section>
+        <section class="item" id="hero-image">
+          <img class="buenos-aires-img"src="images/buenos aires.jpg" alt="buenos aires">
+          <div class="banner">
+            <button class="banner-button" onclick="window.location.href='join/join.html'"><span>Join the Chamber!</span></button>
+        </div>
+        </section>
         <section class="item" id="news-release"><p>News release</p></section>
-
         <section class="item" id="spotlight">
           <div class="spots" id="spot-1"><p>Spotlight 1</p></div>
         <div class="spots" id="spot-2"><p>Spotlight 2</p></div>
