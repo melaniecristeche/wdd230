@@ -31,6 +31,6 @@ if (now.getDay() === 1 || now.getDay() == 2) {
     🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
     </a></p>`;
     menu.classList.toggle('responsive-2');
-    document.querySelector('.pop').classList.toggle('space')
+    document.querySelector('.pop').classList.toggle('date')
 }
 
