@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 
 body {
   font-family: 'Lato', sans-serif;
@@ -8,7 +13,7 @@ body {
 header,
 main,
 footer {
-  margin: 1.25em auto;
+  margin: 0 auto;
   max-width: 760px;
 }
 
@@ -36,24 +41,23 @@ header {
   align-items: center;
   justify-items: center;
   padding: 1.2rem;
+  margin: 1rem auto;
 }
 
 footer {
-  padding: 1rem;
+  padding: 1.2rem;
+  margin: 1rem auto;
   text-align: center;
 }
 
-.class-student {
-  padding-left: 1rem;
-  grid-column: 2/2;
-  color: white;
+picture {
+  margin: 0;
+  padding: 0;
 }
 
-.perfil-image {
-  grid-column: 1/1;
-  grid-row: 1/1;
+img {
   border-radius: 10px;
-  
+
 }
 
 main {
