@@ -22,3 +22,23 @@ const list = document.querySelector('ul');
 
       input.focus();
     }
+
+  // If the length of the element's string is 0 then display helper message 
+
+    // function required(input)
+
+    // {
+      
+    //   if (input == 0)
+
+    //   { 
+    //     input = value
+    //     let value = document.getElementById("favchap")
+
+    //     alert("Please, add your favorite chapter");  	
+    //     return false; 
+    //   }  	
+    //   return true; 
+    // } 
+
+    // required(value.input)
