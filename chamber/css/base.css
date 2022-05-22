@@ -213,6 +213,11 @@ div .banner-button:hover {
   color: white;
 }
 
+
+hr {
+  border-radius: 5px;
+}
+
 .date a {
 text-decoration: none;
 color: white;}
