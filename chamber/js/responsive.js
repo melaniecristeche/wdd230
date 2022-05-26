@@ -23,46 +23,14 @@ currentTime.innerHTML = fulldate;
 
 // Banner join us for the chamber meet and greet Wednesday at 7:00 p.m
 
-const daynames = [
-	"sunday",
-	"monday",
-	"tuesday",
-	"wednesday",
-	"thursday",
-	"friday",
-	"saturday"
-];
-// const months = [
-// 	"January",
-// 	"February",
-// 	"March",
-// 	"April",
-// 	"May",
-// 	"June",
-// 	"July",
-// 	"August",
-// 	"September",
-// 	"October",
-// 	"November",
-// 	"December"
-// ];
+day = new Date();
 
+if (day.getDate() == 1 || day.getDate() == 5) { 
 
-// if (daynames == "Thursday" || daynames == "Monday") { 
-
-// 	document.getElementById("datefield").innerHTML +=
-// 	`<p>
-// 	🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
-// 	</p>`;  
-
-// }
-	 
-
-do {
 	document.getElementById("datefield").innerHTML +=
 	`<p>
 	🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
-	</p>`; 
+	</p>`;  
 
 }
-while (daynames == "monday");
+	 
