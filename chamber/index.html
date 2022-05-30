@@ -59,7 +59,12 @@
         
         <section class="item" id="hero-image">
           <div class="datefield"><span id="datefield"></span></div>
-          <img class="buenos-aires-img"src="images/buenos aires.jpg" alt="buenos aires"> 
+          <picture>
+            <source media= "(max-width: 640px)" srcset="images/wdd230-org-640px.jpg">
+            <source media="(max-width: 1040px)" srcset="images/wdd230-org-906px.jpg">
+            <!-- <img class="buenos-aires-img" src="images/buenos aires-470w.jpg" alt="buenos aires">  -->
+            <img src="images/wdd230-org-470px.jpg" alt="wdd-photo">
+          </picture>
         <div class="banner">
             <button class="banner-button" onclick="window.location.href='join/join.html'"><span>Join the Chamber!</span></button>
         </div>
