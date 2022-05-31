@@ -24,7 +24,7 @@ currentTime.innerHTML = fulldate;
 // Banner join us for the chamber meet and greet Wednesday at 7:00 p.m
 
 
-if (date.getDate() == 1  || date.getDate() == 2) { 
+if (date.getDay() == 1 || date.getDay() == 2) { 
 
 	document.getElementById("datefield").innerHTML +=
 	`<p>
