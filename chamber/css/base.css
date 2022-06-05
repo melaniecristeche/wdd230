@@ -162,6 +162,17 @@ img {
   border-radius: 15px;
 }
 
+.localStorage {
+  max-width: fit-content;
+  position:fixed;
+  opacity: 0.8;
+  padding: 0.5rem;
+  color: #2c698d;
+  background-color: #e3f6f5;
+  border: solid 1px #bae8e8;
+
+}
+
 main section.item {
   border-radius: 5px;
   background-color: #e3f6f5	;
@@ -322,6 +333,7 @@ section.item {
 
 
  .discover-images {
+  display: grid;
   max-width: 950px;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -336,6 +348,4 @@ picture img[data-src] {
   transition: filter 0.5s;
   box-shadow: 0 0 20px #777;
  }
- .discoverImage img:hover {box-shadow: 0 0 50px #333;}
- /* rounded corners - boxmodel */
 

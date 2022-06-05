@@ -19,3 +19,23 @@ localStorage.setItem("visits-ls", numVisits);
 
 // show todays date.
 todayDisplay.textContent = Date.now();
+
+
+
+// const timerDisplay = document.querySelectorAll(".timer");
+
+// get the stored value in localStorage
+
+// let timeVisits = Number(window.localStorage.getItem("visits-time"));
+
+
+// const timerDisplay =  Date.now();
+
+// // determine when starts to count.
+// if (timeVisits < numVisits) {
+// 	timerDisplay.textContent = timeVisits;
+// }
+
+// store the new number of visits value
+
+// localStorage.setItem("visits-time", timeVisits);

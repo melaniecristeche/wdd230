@@ -67,6 +67,8 @@ div .banner-button {
   right: 50px;
   
 }
+.discoverImage img:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
 
 
 }
