@@ -292,3 +292,50 @@ section.item {
   color: #272643;
   opacity: .9;
 }
+
+ .image-1 {
+  float: right;
+  margin: 1rem;
+}
+
+.image-2 {
+  float: left;
+  margin: 1rem;
+}
+
+.image-3 {
+  float: right;
+  margin: 1rem;
+}
+
+.image-4 {
+  float: left;
+  margin: 1rem;
+}
+
+.image-5 {
+  float: right;
+}
+.discoverP {
+  padding: 1rem;
+}
+
+
+ .discover-images {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+ .discoverImage img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  box-shadow: 0 0 20px #777;
+ }
+ .discoverImage img:hover {box-shadow: 0 0 50px #333;}
+ /* rounded corners - boxmodel */
+
