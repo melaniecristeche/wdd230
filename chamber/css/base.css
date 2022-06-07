@@ -41,7 +41,6 @@ p {
 
 header {
   padding: 1.2rem;
-  margin-bottom: 0;
 
 }
 
@@ -57,7 +56,6 @@ footer {
 main {
   margin-top: 0;
   padding-top: 0;
-  padding: 1rem;
 }
 
 hr {
@@ -145,6 +143,7 @@ a:hover {
 
 img {
   max-width: 100%;
+  
 }
 
 .current-time {
@@ -296,46 +295,48 @@ section.item {
   opacity: .9;
 }
 
- .image-1 {
-  float: right;
+.image-1, .image-2, .image-3, .image-4, .image-5 {
   margin: 1rem;
   cursor: pointer;
+  /* border: 5px solid #ffffff;
+  box-shadow: 2px 2px 4px #999; */
+
+}
+
+ .image-1 {
+  float: right;
+
 }
 
 .image-2 {
   float: left;
-  margin: 1rem;
-  cursor: pointer;
+
 }
 
 .image-3 {
   float: right;
-  margin: 1rem;
-  cursor: pointer;
+
 }
 
 .image-4 {
   float: left;
-  margin: 1rem;
-  cursor: pointer;
+
 }
 
 .image-5 {
   float: right;
-  cursor: pointer;
+
 }
 .discoverP {
- 
   padding: 1.5rem;
 }
 
 
- .discover-images {
-  
+.discover-images {
   display: grid;
-  max-width: 950px;
   margin: 0 auto;
   margin-bottom: 1rem;
+ 
   
 }
 
@@ -343,9 +344,10 @@ picture img[data-src] {
   filter: blur(0.2em);
 }
 
- .discoverImage img {
+.discoverImage img {
   filter: blur(0em);
   transition: filter 0.5s;
-  box-shadow: 0 0 20px #777;
+
+
  }
 
