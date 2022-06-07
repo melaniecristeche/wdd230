@@ -70,5 +70,8 @@ div .banner-button {
 .discoverImage img:hover {box-shadow: 0 0 50px #333;}
 /* rounded corners - boxmodel */
 
-
+.datefield {
+  max-width: 670.41px;
+ 
+}
 }

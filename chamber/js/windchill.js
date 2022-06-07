@@ -3,8 +3,8 @@ const temperature = parseFloat(document.getElementById("temperature").innerHTML)
 const windSpeed = parseFloat(document.getElementById("windSpeed").innerHTML);
 const windChill = document.getElementById("windChill");
 
-console.log(temperature)
-console.log(windSpeed)
+// console.log(temperature)
+// console.log(windSpeed)
 
 if (temperature <= 50 || windSpeed < 3) {
 
