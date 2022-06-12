@@ -14,7 +14,7 @@ main {
 
 caption {
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
      box-shadow: 10px 12px 10px #999999;
 
 }
@@ -27,7 +27,7 @@ table{
   }
 
 th, td{
-    padding: 1rem;
+    padding:0.5rem;
 }
 
 .head-table {
