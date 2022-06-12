@@ -68,5 +68,10 @@
         max-width: 470.41px;
        
       }
+
+      form label.sbs {
+        padding: .4rem 0;
+      
+      }
 }
 
