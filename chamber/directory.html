@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Assignment: Chamber Home Page Build" />
 
-    <title>Join Page</title>
+    <title>Discover Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/responsive.js"></script>
     <script defer src="../js/datetime.js"></script>
+    <script defer src="js/lazy-load.js"></script>
+    <script defer src="js/localstorage.js"></script>
 
   </head>
   <body>
@@ -31,58 +33,25 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="directory.html">Directory</a></li>  
+          <li><a href="directory.html">Directory</a></li>
           <li><a href="#">Service</a></li>
           <li><a href="#">History</a></li>  
           <li><a href="#">Products</a></li>
         </ul>
       </nav>
       <br>
-      <div class="current-time"><span id="currentTime"> </span></div>
+      <div class="current-time"><span id="currentTime"></span>
+        </div>
     </header>
     <main> 
-      <form method="get" action="thankyou.html">
-        <fieldset>
-            <legend>Application Information</legend>
-                <label for="fname" class="top">First Name*
-                    <input type="text" id="fname" required placeholder="Enter your first name">
-                </label>
-                <label for="lname" class="top">Last Name*
-                    <input type="text" id="lname" required placeholder="Enter your last name">
-                </label>
-                <label for="business" class="top">Business Position:
-                    <input type="text" id="business" pattern="[A-Za-z - ]{7,}">
-                </label>
-                <label for="email" class="top">Email*
-                    <input type="email" id="email" required placeholder="email@email.com">
-                </label>
-                <label for="phone" class="top">Phone*
-                    <input type="tel" id="phone" required placeholder="123-456-7890">
-                </label>
-                <label for="title" class="top">Business Name*
-                    <input type="text" id="btitle" required placeholder="Company">
-                </label>
-        </fieldset>
-        <fieldset>
-            <legend>Membership<em>(Choose One)</em></legend>
-                <label for="Npmbr" class="sbs"></label>
-                    <input type="radio" id="Npmbr" name="Membership Level" value="NPmbr"> NP Membership<br>
-                <label for="Bronzembr" class="sbs"></label>
-                    <input type="radio" id="Bronzembr" name="Membership Level" value="Bronzembr"> Bronze Membership<br>
-                <label for="Silvermbr" class="sbs"></label>
-                    <input type="radio" id="Silvermbr" name="Membership Level" value="Silvermbr"> Silver Membership<br>
-                <label for="Goldmbr" class="sbs"></label>
-                    <input type="radio" id="Goldmbr" name="Membership Level" value="Goldmbr"> Gold Membership<br>
-        </fieldset>
-        <fieldset>
-            <legend>Business Description</legend>
-            <label for="description"></label>
-            <textarea id="txtid" name="Business Description" rows="10" cols="42" maxlength="500"></textarea>
-        </fieldset>
-        <input type="hidden" id="date" name="date" value="CurrentTime">
-        <input type="hidden" id="time" name="time" value="CurrentTime">
-        <input type="submit" value="Join Community" class="submitBtn">
-    </form>
+        <div class="grid-table-switcher">
+            <button id="gridview"><img src="images/gridview.png" alt="To switch back and ford between grid view and table view"></button>
+            <button id="listview"><img src="images/listview.png" alt="To switch back and ford between grid view and table view"></button>
+          </div>
+
+        <div class="member-cards">
+
+        </div>
     </main>
   
     <footer>
@@ -118,3 +87,6 @@
     </footer>
   </body>
 </html>
+
+<!-- 
+Directory Page -->
