@@ -5,7 +5,7 @@
         "addres": "Avda. Del Campo 1030/42, La Paternal, CABA",
         "phone": "(+54 11) 4555-0987/0111",
         "email": "admin@tendlarz.com.ar",
-        "web": "www.xtendweb.com.ar",
+        "web": "https://www.xtendweb.com.ar/",
         "membership": "gold",
         "imageUrl":"directory-img/323_xtend.jpg"
     
@@ -15,9 +15,9 @@
         "addres": "1 de Mayo 1684, Pablo Podestá, Bs As",
         "phone": "(+54 011) 4769-0109/4750/51",
         "email": "albalongatextil@gmail.com",
-        "web": "www.albalonga.com.ar",
+        "web": "http://www.albalonga.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/319_albalonga.jpg"
        
       },
       {
@@ -25,9 +25,9 @@
         "addres": "Av. San Martin 1562, San Martín, Bs As",
         "phone": "(+54 11) 4755-3030",
         "email": "info@algoselan.com.ar",
-        "web": "www.algoselan.com.ar",
+        "web": "https://www.algoselanflandria.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/318_af.jpg"
         
       },
       {
@@ -35,19 +35,19 @@
         "addres": "Cóndor 2213, Villa Soldati, CABA",
         "phone": "4554-5005/4344",
         "email": "info@cafama.com.ar",
-        "web": "www.cafama.com.ar",
+        "web": "http://www.cafama.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/322_cafama.jpg"
         
       },
       {
-        "name": "A. J. TENDLARZ S.A.C.I.F.",
-        "addres": "Avda. Del Campo 1030/42, La Paternal, CABA",
-        "phone": "(+54 11) 4555-0987/0111",
-        "email": "admin@tendlarz.com.ar",
-        "web": "www.xtendweb.com.ar",
+        "name": "KARATEX S.A.I.C.",
+        "addres": "Santiago del Estero 453, Monserrat, CABA",
+        "phone": "(+54 11) 5861-1800/1820/1860",
+        "email": "aoberti@karatex.com.ar",
+        "web": "http://www.karatex.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/341_karatex.jpg"
         
       },
       {
@@ -57,7 +57,7 @@
         "email": "gustavo@confecor.com.ar",
         "web": "https://www.confecor.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/327_nortextil.jpg"
         
       },
       {
@@ -65,19 +65,19 @@
         "addres": "Cerrito 1136 - 12 Piso., Retiro, CABA",
         "phone": "(+54 11) 4816-7670",
         "email": "lidia.noro@coteminas.com.ar",
-        "web": "www.coteminas.com.ar",
+        "web": "http://www.coteminas.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/328_coteminas.jpg"
         
       },
       {
         "name": "FIBRALTEX S.A.",
         "addres": "Avda. Eduardo Comesaña 3949, Ciudadela, Bs As",
         "phone": "(+54 11) 4488-2177 al 2181",
-        "email": "grossom@fibraltex.com.ar",
-        "web": "www.fibraltex.com.ar",
+        "email": "https://grossom@fibraltex.com.ar/",
+        "web": "https://www.fibraltex.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/334_fibratex.jpg"
         
       },
       {
@@ -85,9 +85,9 @@
         "addres": "M.R. Montarce 1495 - (ex-1706), Haedo, Bs As",
         "phone": "(+54 11) 4443-2000",
         "email": "ventas@hiladoslho.com.ar",
-        "web": "www.hiladoslho.com.ar",
+        "web": "https://www.hiladoslho.com.ar/",
         "membership": "gold",
-        "imageUrl":"directory-img/323_xtend.jpg"
+        "imageUrl":"directory-img/339_lho.jpg"
         
       }]
 

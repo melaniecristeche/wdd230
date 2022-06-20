@@ -431,4 +431,22 @@ form label.top input:required:valid {
     text-align: center;
   }
 
+/* Directory CSS */ 
+.member-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-align: center;
+  grid-gap: 1rem;
   
+}
+.member-cards section  {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #e3f6f5;
+}
+
+
+.grid section div h3 {
+  margin: auto;
+}

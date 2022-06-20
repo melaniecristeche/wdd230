@@ -46,8 +46,9 @@ function displayMembers(membersList) {
     phone.innerHTML = `${membersList.phone}`;
     if (membersList.web != null){
       web.innerHTML = `${membersList.name} web`;
-      web.setAttribute('href',membersList.web);
-    }else {
+      web.setAttribute('href', membersList.web);
+     
+    } else {
       web.innerHTML = `No web`;
     }
     // Add/append the section(card) with the h2 element
