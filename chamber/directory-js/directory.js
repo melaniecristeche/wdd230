@@ -1,17 +1,17 @@
-// const btnGridview = document.getElementById('gridview');
-// const btnListview = document.getElementById('listview');
-// const display = document.querySelector("#mainDiv");
+const gridBtn = document.getElementById('gridBtn');
+const listBtn = document.getElementById('listBtn');
+const display = document.querySelector("#mainDiv");
 
-// btnGridview.addEventListener("click", () => {
-// 	// example using arrow function
-// 	display.classList.add("grid");
-// 	display.classList.remove("list");
-// });
-// btnListview.addEventListener("click", () => {
-// 	// example using arrow function
-// 	display.classList.add("list");
-// 	display.classList.remove("grid");
-// });
+gridBtn.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+listBtn.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("list");
+	display.classList.remove("grid");
+});
 
 const requestFile = 'data/data.json';
 const cards = document.querySelector('.member-cards');
