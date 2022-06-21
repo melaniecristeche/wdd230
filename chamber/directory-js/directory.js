@@ -31,13 +31,13 @@ function displayMembers(membersList) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let div = document.createElement('div')
-    let name = document.createElement('h3');
+    let name = document.createElement('p');
     let logo = document.createElement('img');
     let addres = document.createElement('p'); //addres
     let phone = document.createElement('p'); //phone
     let web = document.createElement('a'); // web site
 
-    name.innerHTML = `${membersList.name}`;
+    name.innerHTML = `<strong>${membersList.name}</strong>`;
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     logo.setAttribute('src', membersList.imageUrl);
     logo.setAttribute('alt', `Logo of ${membersList.name}`);
