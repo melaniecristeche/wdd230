@@ -67,11 +67,14 @@ div .banner-button {
   right: 50px;
   
 }
-.discoverImage img:hover {box-shadow: 0 0 50px #333;}
-/* rounded corners - boxmodel */
 
-.datefield {
+.join-banner {
   max-width: 670.41px;
  
 }
+
+.discoverImage img:hover {
+  transform: rotate(4deg);}
+/* rounded corners - boxmodel */
+
 }

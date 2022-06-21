@@ -71,9 +71,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #bae8e8;
-}
+
 
 nav button {
   margin: 1rem;
@@ -111,6 +109,9 @@ nav ul li a {
   font-size: 0.95rem;
 }
 
+nav ul li a:hover {
+  color: #bae8e8;
+}
 nav ul.open {
   display: block;
 }
@@ -130,12 +131,16 @@ nav ul.open {
 
 .melLink {
   color: white;
-  text-decoration-line: none;
 }
+
+.melLink:hover, .location-link:hover {
+color: #bae8e8;
+}
+
 .location-link {
-  text-decoration-line: none;
   color: white;
 }
+
 
 
 .logo-image {
@@ -152,7 +157,6 @@ nav ul.open {
   justify-content: center;
   cursor: pointer;
 }
-
 
 
 .current-time {
@@ -291,60 +295,25 @@ section.item {
 }
 
 /* banner join the meet and great CSS */
-.datefield {
+.join-banner {
   max-width: 406px;
   border-radius: 5px;
   cursor: pointer;
   position: absolute;
-  background-color: #c4c4c6;
+  background-color: #dddddd;
   color: #272643;
   opacity: .9;
 }
 
 /* Discover image page CSS */
-.image-1, .image-2, .image-3, .image-4, .image-5 {
-  margin: 1rem;
-  cursor: pointer;
-  /* border: 5px solid #ffffff;
-  box-shadow: 2px 2px 4px #999; */
-
-}
-
- .image-1 {
-  float: right;
-
-}
-
-.image-2 {
-  float: left;
-
-}
-
-.image-3 {
-  float: right;
-
-}
-
-.image-4 {
-  float: left;
-
-}
-
-.image-5 {
-  float: right;
-
-}
-.discoverP {
-  padding: 1.5rem;
-}
-
 
 .discover-images {
   display: grid;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
  
-  
+.discoverP {
+  padding: 1rem;
 }
 
 picture img[data-src] {
@@ -352,10 +321,19 @@ picture img[data-src] {
 }
 
 .discoverImage img {
+  cursor: pointer;
   filter: blur(0em);
   transition: filter 0.5s;
-
-
+  transition-property: transform;
+  transition-duration: 0.3s;
+  border: 5px solid #ffffff;
+  box-shadow: 2px 2px 4px #999;
+  height: auto;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
  }
 
 /* Join page CSS */
