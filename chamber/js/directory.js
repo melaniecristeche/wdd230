@@ -60,4 +60,14 @@ function displayMembers(membersList) {
     card.appendChild(web);
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.member-cards').appendChild(card);
-}
+
+    if ( document.URL.includes("index.html") ){
+      if (membersList.membership == 1){
+        document.querySelector('#spotlight.item').appendChild(card);
+      };
+    } else{
+        document.querySelector('div.grid').appendChild(card);
+    };
+  }
+  
+  
