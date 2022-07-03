@@ -4,8 +4,8 @@ const currentTemp = document.querySelector('#currentTemp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-desc');
 const windSpeed = document.querySelector('#windSpeed');
-const speedType = document.querySelector('#speed-type');
-const cf = document.querySelector("#tempType");
+// const speedType = document.querySelector('#speed-type');
+// const cf = document.querySelector("#tempType");
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Argentina,AR&appid=f2f2ad01b4c35a18e025d561569710c4";
 
@@ -33,13 +33,13 @@ function displayResults(weatherData){
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.innerHTML = desc;
-    captionDesc.textContent = desc.split(' ').map(w => w[0].toUpperCase() + w.substring(1).toLowerCase()).join(' ');
-    if (cf.textContent == "°C" | cf.textContent == ""){
-      windSpeed.textContent = weatherData.wind.speed.toFixed(1);
-      speedType.textContent = "mph"
-    } else{
-      speedType.textContent = "km/h"
-      windSpeed.textContent = (weatherData.wind.speed * 1.60934).toFixed(1);
-    };
+    // captionDesc.textContent = desc.split(' ').map(w => w[0].toUpperCase() + w.substring(1).toLowerCase()).join(' ');
+    // if (cf.textContent == "°C" | cf.textContent == ""){
+    //   windSpeed.textContent = weatherData.wind.speed.toFixed(1);
+    //   speedType.textContent = "mph"
+    // } else{
+    //   speedType.textContent = "km/h"
+    //   windSpeed.textContent = (weatherData.wind.speed * 1.60934).toFixed(1);
+    // };
   
 }
