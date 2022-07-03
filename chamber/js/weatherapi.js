@@ -5,7 +5,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-desc');
 
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=Imperial&appid=def28b87d1cd75a04386f35482347259"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Argentina,ar&appid=f2f2ad01b4c35a18e025d561569710c4";
 
 //  api.openweathermap.org/data/2.5/forecast/daily?lat=39.2502&lon=-111.751&cnt=7&appid=a1cdf4d637caf46a9288686067728afa&units=imperial
 
@@ -26,7 +26,7 @@ async function apiFetch(apiURL) {
 
 function displayResults(weatherData){
 
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    currentTemp.innerHTML = `<strong>${Math.round(weatherData.main.temp.toFixed(0))}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
