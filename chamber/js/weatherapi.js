@@ -3,7 +3,7 @@
 const currentTemp = document.querySelector('#currentTemp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-desc');
-const windSpeed = document.querySelector('#windSpeed');
+// const windSpeed = document.querySelector('#windSpeed');
 // const speedType = document.querySelector('#speed-type');
 // const cf = document.querySelector("#tempType");
 
