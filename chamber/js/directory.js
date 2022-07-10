@@ -22,7 +22,7 @@ fetch(requestFile)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const membersList = jsonObject['companies'];
+    const membersList = jsonObject.companies;
     membersList.forEach(displayMembers);
   });
 
