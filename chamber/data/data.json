@@ -39,7 +39,7 @@
         "phone": "(+54 011) 4554-5005/4344",
         "email": "info@cafama.com.ar",
         "web": "http://www.cafama.com.ar/",
-        "membership": "gold",
+        "membership": "silver",
         "imageUrl":"directory-img/322_cafama.jpg"
         
       },
@@ -49,7 +49,7 @@
         "phone": "(+54 11) 5861-1800/1820/1860",
         "email": "aoberti@karatex.com.ar",
         "web": "http://www.karatex.com.ar/",
-        "membership": "gold",
+        "membership": "silver",
         "imageUrl":"directory-img/341_karatex.jpg"
         
       },
@@ -59,7 +59,7 @@
         "phone": "(+54 011) 4218-1500",
         "email": "gustavo@confecor.com.ar",
         "web": "https://www.confecor.com.ar/",
-        "membership": "gold",
+        "membership": "bronze",
         "imageUrl":"directory-img/327_nortextil.jpg"
         
       },
@@ -70,7 +70,7 @@
         "phone": "(+54 11) 4488-2177 al 2181",
         "email": "https://grossom@fibraltex.com.ar/",
         "web": "https://www.fibraltex.com.ar/",
-        "membership": "gold",
+        "membership": "bronze",
         "imageUrl":"directory-img/334_fibratex.jpg"
         
       },
@@ -81,7 +81,7 @@
         "phone": "(+54 11) 4816-7670",
         "email": "lidia.noro@coteminas.com.ar",
         "web": "http://www.coteminas.com.ar/",
-        "membership": "gold",
+        "membership": "bronze",
         "imageUrl":"directory-img/328_coteminas.jpg"
         
       },
@@ -92,7 +92,7 @@
         "phone": "(+54 11) 4443-2000",
         "email": "ventas@hiladoslho.com.ar",
         "web": "https://www.hiladoslho.com.ar/",
-        "membership": "gold",
+        "membership": "bronze",
         "imageUrl":"directory-img/339_lho.jpg"
         
       }]
