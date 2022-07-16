@@ -63,16 +63,9 @@ function displayMembers(membersList) {
 
     
   }
-  
-  function displayCards(membersList) {
-    let member = document.createElement('section');
 
-    if (document.URL.includes("index.html") ){
-      if (membersList.membership == 1){
-        document.querySelector('#spotlight.item').appendChild(member);
-      };
-    } else{''
-        document.querySelector('div.grid').appendChild(member);
-    };
-  }
-  
+  // function getRandomMember {
+
+  // }
+
+
