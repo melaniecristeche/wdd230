@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Final Project: Temple Inn & Suites" />
+
+    <title>Temple Inn & Suites</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/responsive.js"></script>
+    <script defer src="js/join.banner.js"></script>
+    <script defer src="js/weatherapi.js"></script>
+    <script defer src="../js/datetime.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><picture><img class="logo-image" src="img/temple_logo-96x96.png" alt="logo image"  /></picture></a>
+        <button id="hamburgerBtn"><span>&#9776</span><span>☒</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>  
+        </ul>
+      </nav>
+      <br>
+      <div class="current-date"><span id="currentDate"> </span></div>
+    </header>
+    <main> 
+      <div class="main-grid">
+        
+        <section class="item" id="hero-image">
+          <div class="join-banner"><span id="join-banner"></span></div>
+          <picture >
+            <source class="temple-img" media= "(max-width: 640px)" srcset="img/home-temple-640px.jpg">
+            <source class="temple-img"  media="(max-width: 1040px)" srcset="img/home-temple-904px.jpg">
+            
+            <img class="temple-img" src="img/home-temple.jpg" alt="temple-banner">
+          </picture>
+        <div class="banner">
+            <button class="banner-button" onclick="window.location.href='join.html'"><span>Make an Appointment</span></button>
+        </div>
+        
+        </section>
+        
+        <section class="item" id="spotlight">
+          <div class="spots" id="spot-1">
+            <section class="item" id="weather"><h3>Weather</h3>
+              <div class="tempSection">
+                <a href="https://openweathermap.org/" target="_blank"> <img id="weather-icon" src="" alt="weather icon"></a>
+          <p><span id="currentTemp"></span> F°</p></div>
+    
+          <div id="weather-desc">
+            --
+          </div>
+       
+        <p>Wind Speed: <span id="windSpeed"></span>/h</p>
+        <p>Wind Chill: <span id="windChill"></span></p>
+      </section></div>
+        <div class="spots" id="spot-2">
+          <section class="item" id="join"><button class="join-button" onclick="window.location.href='join.html'"><span>Contact Us!</span></button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius ut eros vitae maximus. 
+          </p></section> </div>
+      <div class="spots" id="spot-3"><h3>News</h3>
+        <!-- <picture><img src="images/rsz_tree-img.png" alt="tree-logo"></picture> -->
+        <!-- <p><em>Over 1000 plans!</em></p> -->
+      <!-- <span>builda@treefort.com</span><span> +888-8888-8888 | Website</span></div> -->
+        </section>
+      </div>
+    </main>
+  
+    <footer>
+    <div class="footer-1">
+      <div class="footer-1-1">
+      <img  class="logo-image-2"
+      src="img/temple_logo-128x128.png"
+      alt="logo photo"
+    />
+    <section class="hero-direction">
+      <p><strong>Temple Inn & Suites</strong></p>
+      <p>#4800 Dr, Bethesda, MD 20814,8</p>
+      <p>🌍 Montgomery, EE. UU</p>
+      <p><a href="https://goo.gl/maps/FdgpVecpLhHwuuf59" target="_blank" class="location-link">🚩 Location Map</a></p>
+  </section>
+  <div class="footer-1-2">
+    <p><strong>Contact us!</strong></p>
+    <p>info@templeinn&suites.com</p>
+    <p>📞 Cel. +(54) 111-111-111</p>
+    <a href="https://www.youtube.com/" target="_blank"><img src="img/rsz_youtube.png" alt="youtube link" class="social-media"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="img/rsz_facebook.png" alt="facebook link" class="social-media"></a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="img/rsz_instagram.png" alt="instagram link" class="social-media"></a>
+  </div>
+</div>
+    <hr>
+    <div class="footer-2">
+      <p><span id="lastyear"> &copy;</span> Temple Inn & Suites</p> 
+      <p><a href="../index.html" class="melLink">Melanie Cristeche</a></p>
+      <p>WDD 230 Final Project</p>
+      <p><span id="lastmod"></span></p>
+    </div>
+    </div>
+    </footer>
+  </body>
+</html>

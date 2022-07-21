@@ -1,0 +1,100 @@
+{
+    "companies": [
+      
+      {
+        "name": "ALBALONGA S.A.",
+        "addres": "1 de Mayo 1684, Pablo Podestá",
+        "phone": "(+54 011) 4769-0109/4750/51",
+        "email": "albalongatextil@gmail.com",
+        "web": "http://www.albalonga.com.ar/",
+        "membership": "gold",
+        "imageUrl":"directory-img/319_albalonga.jpg"
+       
+      },
+
+      {
+        "name": "A. J. TENDLARZ S.A.C.I.F.",
+        "addres": "Avda. Del Campo 1030/42",
+        "phone": "(+54 11) 4555-0987/0111",
+        "email": "admin@tendlarz.com.ar",
+        "web": "https://www.xtendweb.com.ar/",
+        "membership": "gold",
+        "imageUrl":"directory-img/323_xtend.jpg"
+    
+      },
+
+      {
+        "name": "ALGOSELAN FLANDRIA S.A.",
+        "addres": "Av. San Martin 1562",
+        "phone": "(+54 11) 4755-3030",
+        "email": "info@algoselan.com.ar",
+        "web": "https://www.algoselanflandria.com.ar/",
+        "membership": "gold",
+        "imageUrl":"directory-img/318_af.jpg"
+        
+      },
+      {
+        "name": "CAFAMA",
+        "addres": "Cóndor 2213, Villa Soldati",
+        "phone": "(+54 011) 4554-5005/4344",
+        "email": "info@cafama.com.ar",
+        "web": "http://www.cafama.com.ar/",
+        "membership": "silver",
+        "imageUrl":"directory-img/322_cafama.jpg"
+        
+      },
+      {
+        "name": "KARATEX S.A.I.C.",
+        "addres": "Santiago del Estero 453",
+        "phone": "(+54 11) 5861-1800/1820/1860",
+        "email": "aoberti@karatex.com.ar",
+        "web": "http://www.karatex.com.ar/",
+        "membership": "silver",
+        "imageUrl":"directory-img/341_karatex.jpg"
+        
+      },
+      {
+        "name": "CONFECOR S.A.",
+        "addres": "República Argentina 2573",
+        "phone": "(+54 011) 4218-1500",
+        "email": "gustavo@confecor.com.ar",
+        "web": "https://www.confecor.com.ar/",
+        "membership": "bronze",
+        "imageUrl":"directory-img/327_nortextil.jpg"
+        
+      },
+      
+      {
+        "name": "FIBRALTEX S.A.",
+        "addres": "Avda. Eduardo Comesaña 3949",
+        "phone": "(+54 11) 4488-2177 al 2181",
+        "email": "https://grossom@fibraltex.com.ar/",
+        "web": "https://www.fibraltex.com.ar/",
+        "membership": "bronze",
+        "imageUrl":"directory-img/334_fibratex.jpg"
+        
+      },
+
+      {
+        "name": "COTEMINAS ARGENT. S.A.",
+        "addres": "Cerrito 1136 - 12 Piso.",
+        "phone": "(+54 11) 4816-7670",
+        "email": "lidia.noro@coteminas.com.ar",
+        "web": "http://www.coteminas.com.ar/",
+        "membership": "bronze",
+        "imageUrl":"directory-img/328_coteminas.jpg"
+        
+      },
+
+      {
+        "name": "JORGE Y FRANCISCO S.A.",
+        "addres": "M.R. Montarce 1495 - Haedo",
+        "phone": "(+54 11) 4443-2000",
+        "email": "ventas@hiladoslho.com.ar",
+        "web": "https://www.hiladoslho.com.ar/",
+        "membership": "bronze",
+        "imageUrl":"directory-img/339_lho.jpg"
+        
+      }]
+
+    }
