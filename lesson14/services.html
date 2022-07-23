@@ -21,6 +21,7 @@
     <script defer src="js/join.banner.js"></script>
     <script defer src="js/weatherapi.js"></script>
     <script defer src="../js/datetime.js"></script>
+    
 
   </head>
   <body>
@@ -33,53 +34,21 @@
           <li><a href="temple.html">Temple</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="services.html">Services</a></li>  
+          <div class="navbar">
+          <div class="subnav">
+              <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="#">Reception</a>
+                <a href="#">Temple missionary</a>
+            </div>
+          </div>
         </ul>
       </nav>
       <br>
       <div class="current-date"><span id="currentDate"> </span></div>
     </header>
     <main> 
-      <div class="main-grid">
-        
-        <section class="item" id="hero-image">
-          <div class="join-banner"><span id="join-banner"></span></div>
-          <picture >
-            <source class="temple-img" media= "(max-width: 640px)" srcset="img/home-temple-640px.jpg">
-            <source class="temple-img"  media="(max-width: 1040px)" srcset="img/home-temple-904px.jpg">
-            
-            <img class="temple-img" src="img/home-temple.jpg" alt="temple-banner">
-          </picture>
-        <div class="banner">
-            <button class="banner-button" onclick="window.location.href='join.html'"><span>Make an Appointment</span></button>
-        </div>
-        
-        </section>
-        
-        <section class="item" id="spotlight">
-          <div class="spots" id="spot-1">
-            <section class="item" id="weather"><h3>Weather</h3>
-              <div class="tempSection">
-                <a href="https://openweathermap.org/" target="_blank"> <img id="weather-icon" src="" alt="weather icon"></a>
-          <p><span id="currentTemp"></span> F°</p></div>
-    
-          <div id="weather-desc">
-            --
-          </div>
-       
-        <p>Wind Speed: <span id="windSpeed"></span>/h</p>
-        <p>Wind Chill: <span id="windChill"></span></p>
-      </section></div>
-        <div class="spots" id="spot-2">
-          <section class="item" id="join"><button class="join-button" onclick="window.location.href='join.html'"><span>Contact Us!</span></button>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius ut eros vitae maximus. 
-          </p></section> </div>
-      <div class="spots" id="spot-3"><h3>News</h3>
-        <!-- <picture><img src="images/rsz_tree-img.png" alt="tree-logo"></picture> -->
-        <!-- <p><em>Over 1000 plans!</em></p> -->
-      <!-- <span>builda@treefort.com</span><span> +888-8888-8888 | Website</span></div> -->
-        </section>
-      </div>
+      
     </main>
   
     <footer>

@@ -33,6 +33,7 @@
           <li><a href="temple.html">Temple</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="services.html">Services</a></li>  
+
         </ul>
       </nav>
       <br>
@@ -48,7 +49,7 @@
                 <label for="lname" class="top">Last Name*
                     <input type="text" id="lname" required placeholder="Enter your last name">
                 </label>
-                <label for="business" class="top">Business Position:
+                <label for="business" class="top">Location:
                     <input type="text" id="business" pattern="[A-Za-z - ]{7,}">
                 </label>
                 <label for="email" class="top">Email*
@@ -57,28 +58,26 @@
                 <label for="phone" class="top">Phone*
                     <input type="tel" id="phone" required placeholder="123-456-7890">
                 </label>
-                <label for="title" class="top">Business Name*
+                <label for="title" class="top">Home state/or Country*
                     <input type="text" id="btitle" required placeholder="Company">
                 </label>
         </fieldset>
         <fieldset>
-            <legend>Membership<em>(Choose One)</em></legend>
+            <legend>Type of rooms<em>(Choose One)</em></legend>
                 <label for="Npmbr" class="sbs"></label>
-                    <input type="radio" id="Npmbr" name="Membership Level" value="NPmbr"> NP Membership<br>
-                <label for="Bronzembr" class="sbs"></label>
-                    <input type="radio" id="Bronzembr" name="Membership Level" value="Bronzembr"> Bronze Membership<br>
+                    <input type="radio" id="Bronzembr" name="Membership Level" value="Bronzembr"> Bronze Room<br>
                 <label for="Silvermbr" class="sbs"></label>
-                    <input type="radio" id="Silvermbr" name="Membership Level" value="Silvermbr"> Silver Membership<br>
+                    <input type="radio" id="Silvermbr" name="Membership Level" value="Silvermbr"> Silver Room<br>
                 <label for="Goldmbr" class="sbs"></label>
-                    <input type="radio" id="Goldmbr" name="Membership Level" value="Goldmbr"> Gold Membership<br>
+                    <input type="radio" id="Goldmbr" name="Membership Level" value="Goldmbr"> Gold Room<br>
         </fieldset>
         <fieldset>
-            <legend>Business Description</legend>
+            <legend>Accommodations/Comments</legend>
             <label for="description"></label>
             <textarea id="txtid" name="Business Description" rows="10" cols="42" maxlength="500"></textarea>
         </fieldset>
         <input type="hidden" id="date&time" name="date&time" value= "currentDate">
-        <input type="submit" value="Join Community" class="submitBtn">
+        <input type="submit" value="Make Reservation" class="submitBtn">
     </form>
     </main>
   
