@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/responsive.js"></script>
+    <script defer src="js/lazy-load.js"></script>
     <script defer src="js/join.banner.js"></script>
     <script defer src="js/weatherapi.js"></script>
     <script defer src="../js/datetime.js"></script>
@@ -39,48 +40,73 @@
       <div class="current-date"><span id="currentDate"> </span></div>
     </header>
     <main> 
-      <div class="main-grid">
-        
-        <section class="item" id="hero-image">
-          <div class="join-banner"><span id="join-banner"></span></div>
-          <picture >
-            <source class="temple-img" media= "(max-width: 640px)" srcset="img/home-temple-640px.jpg">
-            <source class="temple-img"  media="(max-width: 1040px)" srcset="img/home-temple-904px.jpg">
-            
-            <img class="temple-img" src="img/home-temple.jpg" alt="temple-banner">
-          </picture>
-        <div class="banner">
-            <button class="banner-button" onclick="window.location.href='join.html'"><span>Make an Appointment</span></button>
-        </div>
-        
-        </section>
-        
-        <section class="item" id="spotlight">
-          <div class="spots" id="spot-1">
-            <section class="item" id="weather"><h3>Weather</h3>
-              <div class="tempSection">
-                <a href="https://openweathermap.org/" target="_blank"> <img id="weather-icon" src="" alt="weather icon"></a>
-          <p><span id="currentTemp"></span> F°</p></div>
-    
-          <div id="weather-desc">
-            --
-          </div>
-       
-        <p>Wind Speed: <span id="windSpeed"></span>/h</p>
-        <p>Wind Chill: <span id="windChill"></span></p>
-      </section></div>
-        <div class="spots" id="spot-2">
-          <section class="item" id="join"><button class="join-button" onclick="window.location.href='join.html'"><span>Contact Us!</span></button>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius ut eros vitae maximus. 
-          </p></section> </div>
-      <div class="spots" id="spot-3"><h3>News</h3>
-        <!-- <picture><img src="images/rsz_tree-img.png" alt="tree-logo"></picture> -->
-        <!-- <p><em>Over 1000 plans!</em></p> -->
-      <!-- <span>builda@treefort.com</span><span> +888-8888-8888 | Website</span></div> -->
-        </section>
+      
+      <h1>EEUU Temples Image Gallery</h1>
+      
+      <div class="localStorage">
+        <p><span class="label">User´s visits in Days: </span><span class="today"></span></p>
       </div>
-    </main>
+        <section class="discover-images">
+
+          <div class="discoverImage">
+          <picture class="dImage-2">
+            <a href="#" target="_blank"><img src='img/rsz_placeholder-image.jpg' data-src="img/Jordan River Utah Temple.jpg" alt="EEUU Temples"></a>
+          </picture>
+
+          <p class="discoverP">Its name comes from the cult of the <strong> Italian Madonna di Bonaira,
+             widespread</strong> among the Iberian sailors of the time, whose name was Spanishized as
+              Buen Ayre. The natives of EEUU Temples are known as <strong> porteños</strong>. 
+              EEUU Temples is located on the banks of the <em> Río de la Plata</em>.
+              It is found in the Pampas or central region of Argentina, and the northern part 
+              of the Province of EEUU Temples.<br>
+              Its <strong>metropolitan territory</strong> is delineated by <em> Av. General Paz</em>, 
+              which surrounds it, and by the river itself, on the other side of which Uruguay extends.
+               </p>
+    </div>
+
+    <div class="discoverImage">
+      <picture class="dImage-3">
+        <a href="#" target="_blank"><img src='img/rsz_placeholder-image.jpg' data-src='img/Provo Utah Temple.jpg' alt="EEUU Temples"></a>
+      </picture>
+      
+      <p class="discoverP"> <strong> Tourism </strong>in the city is an important source of income and it is possible to find
+         visitors from different latitudes throughout the year, especially in the summer and spring seasons. 
+        It is estimated that EEUU Temples receives some <strong> 5.5 million tourists per year</strong>, and the 
+        city is one of the 20 favorite destinations in the world. <br>
+        The tourist culture of EEUU Temples is nourished by the love of<strong> Tango</strong>. It is a typical
+        traditional dance inherited from <em>Italian immigration</em>, as well as other typical rhythms such as the <strong>
+        Milonga</strong> or the <strong>Chacarera</strong>.</p>
+        </div>
+
+    <div class="discoverImage">
+          <picture class="dImage-3">
+            <a href="#" target="_blank"><img src='img/rsz_placeholder-image.jpg' data-src='img/temple-provo.jpg' alt="EEUU Temples"></a>
+          </picture>
+          
+          <p class="discoverP"> <strong>EEUU Temples </strong> was founded on two occasions:
+            On February 2, 1536. By the Spanish <strong> Pedro de Mendoza</strong>, with the name of Puerto de Nuestra 
+            Señora del Buen Ayre. 
+            This settlement did not last long, as famine and conflicts with the original 
+            Querandí populations led to its abandonment in 1541. <br>
+            June 11, 1580. By the Spanish Adelantado <strong> Juan de Garay</strong>, who had just founded Asunción in Paraguay. 
+            This settlement was located one league north of the site where Mendoza had made the first foundation.
+          </p>
+            </div>
+
+        <div class="discoverImage">
+          <picture class="dImage-4">
+            <a href="#" target="_blank"><img src='img/rsz_placeholder-image.jpg' data-src="img/home-temple.jpg" alt="EEUU Temples"></a>
+          </picture>
+
+          <p class="discoverP">The city enjoys a <strong>temperate pampas climate</strong>, or humid <strong> subtropical</strong>. 
+            Its annual temperature averages are 17.9 °C and rainfall is 1,236.3 mm.<br>
+            The maximum summer temperatures can exceed 40 °C, while the winter minimums remain close to 7 °C. 
+            <br>
+            In the EEUU Temples region there are usually <strong> storms of a certain intensity</strong>. This is due to the thrust of two opposing 
+            winds: <em>the Pampas and the Southeast</em>.</p>
+            </div>
+        </section>
+      </main>
   
     <footer>
     <div class="footer-1">
